@@ -3,8 +3,6 @@
 * 系列データのマイニング
 *拡張性を高めるためプログラムを設計から見直したバージョンです
 
-*Inexact Matchingを可能にしています
-
 ### セットアップ ###
 
 * make コマンドするだけです
@@ -16,6 +14,7 @@
 * 抽出されるパターンの長さの制限
 * Cross Validationによるパラメータ選択
 * CloSpanによる完全に重複しているパターンの排除
+* Inexact Matchingを用いたパターン抽出
 
 ### 使い方 ###
 train [-options] input_file
